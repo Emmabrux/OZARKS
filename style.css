@@ -184,3 +184,31 @@ html, body{
 .card-title{
     font-size: 12px;
 }
+
+/* mobile view */
+@media  (max-width: 900px){
+.nav-links{
+    display: none;
+}
+
+.content{
+    flex-direction: column;
+    
+}
+.col{
+    width: 100%;
+}
+
+.header{
+    font-size: 2em;
+}
+
+.card{
+    top: 0;
+    left: 0;
+}
+
+.card-balance{
+    top: 0;
+}
+}
